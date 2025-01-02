@@ -7,10 +7,10 @@ module.exports = (env) => {
 
   return {
     entry: {
-      'epicor-chrysalis-psu-cc' : __dirname + '/index.js'
+      'chy' : __dirname + '/index.js'
     },
     output: {
-      library: "Epicor-Chrysalis-PSU-CC",
+      library: "CHY",
       libraryTarget: "var",
       path: BUILD_DIR,
       filename: isDev ? '[name].bundle.js' : '[name].[hash].bundle.js',
